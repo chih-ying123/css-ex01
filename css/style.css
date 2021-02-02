@@ -1,1 +1,92 @@
-﻿
+﻿.header{
+    position: relative;
+    width: 1000px;  
+    background: url(../images/head_bg.png)no-repeat;
+    height: 126px;
+    margin:0px auto;
+}
+.logo{
+    position: absolute;
+    top:15%;
+    left:3%;
+}
+.member{
+    position: absolute;
+    top: 18%;
+    right: 3%;
+    padding: 15px;
+    color: #fff;
+    background-color: #1e3a50;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgb(82 82 79);
+}
+.member_down{
+    display: flex;
+    font-weight:bold;
+    justify-content:space-between;
+}
+.member_down .text{
+    color:#fff;
+}
+.member_down .img{
+    color:rgb(99, 235, 245);
+    width: 75px;
+}
+
+.content{
+    margin:0px auto;
+    width:1000px;
+    padding: 10px;
+}
+.game_item{
+    margin:0px auto;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    background-color: #1e3a50;
+}
+.game_text{
+    width:120px;
+    margin:0 20px;
+    padding: 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border: none;
+    background-color: #035386;
+    color:#fff;
+    font-size:16px; 
+    font-weight:bold; 
+}
+.game{
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e5e5e5;
+}
+.the_game{
+    margin: 26px;
+    text-align: center;
+}
+.game_name{
+    color: #035386;
+    margin: 10px;
+}
+.game_btn1{
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+}
+.game_btn2{
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+}
+.button{
+    cursor: pointer;
+}
