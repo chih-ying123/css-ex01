@@ -20,7 +20,15 @@
     border-radius: 10px;
     box-shadow: 4px 4px 5px rgb(82 82 79);
 }
+.line{
+    margin: 5px;
+    width: 280px;
+    height: 2px;
+    background-color: #072d4e;
+    box-shadow: 0.5px 0.5px 0.5px rgb(99, 235, 245);
+}
 .member_down{
+    margin: 5px;
     display: flex;
     font-weight:bold;
     justify-content:space-between;
