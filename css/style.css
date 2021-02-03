@@ -92,6 +92,7 @@
     margin: 8px;
 }
 .game_btn1{
+    cursor: pointer;
     margin-right:-3px;
     width: 65%;
     padding: 8px;
@@ -105,6 +106,7 @@
         background:linear-gradient(rgb(170, 247, 118),rgb(52, 136, 18));
     }
 .game_btn2{
+    cursor: pointer;
     width: 32%;
     padding: 8px;
     border-radius: 0px 5px 5px 0px;
